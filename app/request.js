@@ -1,7 +1,7 @@
 function meetup_request(meetup_variable) {
   this.meetup_variable = meetup_variable;
   this.URL = 'https://scalr.api.appbase.io';
-  this.FILTER_URL = 'http://scalr.api.appbase.io/meetup2/meetup/_search';
+  this.FILTER_URL = 'https://scalr.api.appbase.io/meetup2/meetup/_search';
   this.USERNAME = 'qz4ZD8xq1';
   this.PASSWORD = 'a0edfc7f-5611-46f6-8fe1-d4db234631f3';
   this.APPNAME = 'meetup2';
