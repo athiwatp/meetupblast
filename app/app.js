@@ -57,7 +57,7 @@ $(document).ready(function() {
 						app_process.get_filter_list('topic');
 					}
 					 else {
-					 	self.set_typefocus();
+					 	self.set_typefocus(method);
 					}
 				}
 			});
@@ -89,7 +89,7 @@ $(document).ready(function() {
 		},
 		counter: 0,
 		//Set typefocust
-		set_typefocus: function() {
+		set_typefocus: function(method) {
 			var self = this;
 			setTimeout(function() {
 				self.counter = self.counter+1;
@@ -98,7 +98,7 @@ $(document).ready(function() {
 				}
 			}, 1000);
 			function focustype() {
-				$('.tags_search').typeahead('val', '').focus();
+				$('.' + method + '_search').typeahead('val', '').focus();
 				self.set_typefocus();
 			}
 		} 

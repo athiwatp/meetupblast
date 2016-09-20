@@ -1,6 +1,6 @@
 function meetup() {
   this.REQUEST = new meetup_request(this);
-  this.DEFAULT_IMAGE = 'http://www.avidog.com/wp-content/uploads/2015/01/BellaHead082712_11-50x65.jpg';
+  this.DEFAULT_IMAGE = 'https://pbs.twimg.com/profile_images/670332049522298880/N5uJZueS_400x400.jpg';
   this.SINGLE_RECORD_ClONE = $(".single_record_for_clone").clone();
 }
 
